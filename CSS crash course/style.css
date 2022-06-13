@@ -1,5 +1,91 @@
+/* This command applies to everything in the sheet and resets the margins. Headers and paragraphs have
+default margins and padding, so this resets it all to 0, and can be set with the commands stated below*/
+/*
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+*/
+
 body{
-    background-color: #f4f4f4;
-    color: #5555;
+    
+    
+    /*Changing the text*/
+    color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px; 
+    font-weight: x-small;
+
+    /*same as above*/
+    font: x-small 16px Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif;
+    
+    /*Changing the line height*/
+    line-height: 2em;
+    margin:0;
+}
+
+
+a{
+    text-decoration:none;
+}
+/*Style for the class 'container*/
+.container{
+    width:80%;
+    margin:auto;
+}
+
+
+/*Style for the class 'box-1'*/
+.box-1{
+
+background-color:#333333;
+color:#fff;
+
+/*border syntax */
+border-top: 5px red solid;
+border-left: 5px red solid;
+border-right: 5px red solid;
+border-bottom: 5px red solid;
+
+border-width: 5px;
+
+border-top-style: double;
+
+/* Regardless of how many commands for the border there are, the last command
+will be followed*/
+/*Syntax is exactly the same for margin and padding*/
+
+border: 5px red solid;
+
+}
+
+/* Text altering with the heading of box-1 only*/
+.box-1 h1{
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+
+.box-2{
+    border: 3px dotted gray;
+    padding: 20px;
+    margin: auto;
+}
+
+.categories{
+    border: 5px red solid;
+    border-radius:0%;
+}
+
+.categories h2{
+    text-align:center;
+}
+
+.categories ul {
+    padding:0;
+    list-style:none;
 }
