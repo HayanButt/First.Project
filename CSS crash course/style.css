@@ -25,17 +25,46 @@ body{
     margin:0;
 }
 
+/* Customizing the links in the list*/
 
 a{
     text-decoration:none;
+    color:#000;
+
 }
+
+a:hover {
+    color:red;
+}
+
+a:active{
+    color:green;
+}
+
+a:visited{
+    color:black;
+}
+
+
+.categories{
+    border: 5px red solid;
+    border-radius:0%;
+}
+
+.categories h2{
+    text-align:center;
+}
+
+.categories ul {
+    padding-left:20px;
+    list-style:none;
+}
+
 /*Style for the class 'container*/
 .container{
     width:80%;
     margin:auto;
 }
-
-
 /*Style for the class 'box-1'*/
 .box-1{
 
@@ -76,16 +105,39 @@ border: 5px red solid;
     margin: auto;
 }
 
-.categories{
-    border: 5px red solid;
-    border-radius:0%;
+/*Style for the list elements*/
+.categories li{
+    padding-bottom:6px;
+    border-bottom: 1px black;
+    list-style-image: url('./assets/tick.jpg')
 }
 
-.categories h2{
-    text-align:center;
+
+.myform {
+    padding:20px;
+
 }
 
-.categories ul {
-    padding:0;
-    list-style:none;
+.myform .form-group {
+    padding-bottom: 15px;
+
+}
+
+.myform label{
+    display:block;
+}
+
+.myform input[type=text] {
+    padding:8px;
+    width: 100%;
+}
+
+.myform input[type=submit] {
+    background-color:red;
+    color: blue;
+    padding: 10px 15px;
+}
+
+.button:hover {
+    background-color:yellow;
 }
