@@ -42,7 +42,7 @@ a:active{
 }
 
 a:visited{
-    color:black;
+    color:blue;
 }
 
 
@@ -138,6 +138,74 @@ border: 5px red solid;
     padding: 10px 15px;
 }
 
+.button {
+    color:blue;
+    background-color: red;
+}
 .button:hover {
     background-color:yellow;
+}
+
+.clr {
+    clear:both;
+}
+.block {
+    float:left;
+    width:33.3%;
+    border: 1px solid #ccc;
+    box-sizing:border-box;
+}
+
+#main-block {
+    float:left;
+    width:70%;
+    padding:10px;
+    box-sizing:border-box;
+
+}
+
+#sidebar {
+    float:right;
+    width:30%;
+    padding:10px;
+    background-color: #000;
+    box-sizing:border-box;
+    color: white;
+}
+
+.p-box {
+    width:800px;
+    height:500px;
+    border:1px solid black;
+    margin-top: 30px;
+    position:relative;
+    background-image:url(./assets/ChirsP.jpg);
+    background-position: center center;
+    
+}
+
+.p-box h3 {
+    position:absolute;
+    top:40px;
+}
+
+.fix-me {
+    position:fixed;
+    top:400px;
+}
+
+.mylist li:first-child {
+    background : red
+}
+
+.mylist li:last-child {
+    background : blue
+}
+
+.mylist li:nth-child(5) {
+    background: yellow
+}
+
+.mylist li:nth-child(even) {
+    background:grey
 }
