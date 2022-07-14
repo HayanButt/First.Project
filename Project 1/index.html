@@ -12,18 +12,103 @@
         <nav>
             <img src="./Assets/FES.svg" alt="">
             <ul>
-                <li> <a href="">About</a> </li>
-                <li> <a href="">Discord</a> </li>
-                <li> <a href="">Contact</a> </li>
+                <li> <a href="#about">About</a> </li>
+                <li> <a href="#discord">Discord</a> </li>
+                <li> <a href="#contact">Contact</a> </li>
             </ul>
         </nav>
 
         <header>
-            <h2>Best place to learn Frontend</h2>
-            <p> Go from absolute beginner to pro with a simplified process</p>
-            <img src="./Assets/laptop.png" alt="">
-            <button>Start now</button>
+            <div> 
+                <h1>Best place to learn Frontend</h1>
+                <p> Go from absolute beginner to pro with a simplified process</p>
+                <button>Start now</button>
+            </div>
+            
+            <figure> 
+                <img src="./Assets/laptop.png" alt="Home page image">
+            </figure>
         </header>
-        
     </section>
+
+<main>
+    <section id="about">
+        <h2>About</h2>
+        <div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Totam iure quaerat eos, reprehenderit tenetur eveniet dolorem 
+                harum. Laborum, distinctio porro.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Totam iure quaerat eos, reprehenderit tenetur eveniet dolorem 
+                harum. Laborum, distinctio porro.
+            </p>
+        </div>
+
+        <figure>
+            <img src="./Assets/about.jpg" alt="About page image">
+        </figure>
+
+    </section>
+
+    <section is="discord">
+        
+        <h2>Discord</h2>
+         <div>
+            <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Totam iure quaerat eos, reprehenderit tenetur eveniet dolorem 
+                    harum. Laborum, distinctio porro.
+            </p>
+            <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Totam iure quaerat eos, reprehenderit tenetur eveniet dolorem 
+                    harum. Laborum, distinctio porro.
+            </p>
+        </div>
+
+         <figure>
+             <img src="./Assets/discord.png" alt="Discord page image">
+        </figure>
+
+        
+
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+            <div>
+                <form action="Process.php" method="POST"></form>
+                    <div>
+                        <label>Email</label>
+                        <input type="text" name="email" placeholder="jane@example.com">
+                    </div>
+                    <br>
+                    <div>
+                        <label>Message</label>
+                        <textarea name="message" id="" cols="30" rows="10" placeholder="Nice website, lets connect!"></textarea>
+                    </div>
+                    <br>
+                    <div>
+                        <input type="submit" name="Submit" value="Submit">
+                    </div>
+            </div>
+    </section>
+</main>
+
+<footer>
+    <nav>
+        <img src="./Assets/FES.svg" alt="">
+        <ul>
+            <li> <a href="#about">About</a> </li>
+            <li> <a href="#discord">Discord</a> </li>
+            <li> <a href="#contact">Contact</a> </li>
+            <li> <a href="">Cources</a> </li>
+        </ul>
+    </nav>
+    <p>Copyright Frontend Simplified</p>
+</footer>
 </body>
+</html>
